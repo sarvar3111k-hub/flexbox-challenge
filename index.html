@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEXBOX CHALLENGE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 1. HEADER -->
+    <header class="header">
+        <div class="logo">
+            <span class="logo-icon">&lt;/&gt;</span>
+            <span class="logo-text">MyFlex</span>
+        </div>
+        <nav class="nav">
+            <a href="#" class="nav-link">Kurslar</a>
+            <a href="#" class="nav-link">Resurslar</a>
+            <a href="#" class="nav-link">Bosh sahifa</a>
+            <a href="#" class="nav-link">Haqimizda</a>
+            <a href="#" class="nav-link">Xizmatlar</a>
+            <a href="#" class="nav-link">Aloqa</a>
+        </nav>
+        <button class="btn-login">Kirish →</button>
+    </header>
+
+    <!-- MAIN CONTAINER -->
+    <div class="container">
+        <!-- 2. SIDEBAR -->
+        <aside class="sidebar">
+            <!-- 2.1 - Column + Center -->
+            <div class="section-box sidebar-section">
+                <h3>2.1 – column + center</h3>
+                <div class="section-2-1">
+                    <div class="user-avatar"></div>
+                    <div class="user-info">
+                        <h4>Foydalanuvchi</h4>
+                        <p>Doim o'qanishda!</p>
+                    </div>
+                    <button class="btn-profile">Profil</button>
+                </div>
+            </div>
+
+            <!-- 2.2 - Row-Reverse -->
+            <div class="section-box sidebar-section">
+                <h3>2.2 – row-reverse</h3>
+                <div class="section-2-2">
+                    <div class="box-item">📧 Xabarlar</div>
+                    <div class="box-item">🖼️ Bildirish</div>
+                    <div class="box-item">⚙️ Sozlamalar</div>
+                </div>
+            </div>
+
+            <!-- 2.3 - Wrap -->
+            <div class="section-box sidebar-section">
+                <h3>2.3 – wrap</h3>
+                <div class="section-2-3">
+                    <span class="tag html-tag">HTML</span>
+                    <span class="tag css-tag">CSS</span>
+                    <span class="tag js-tag">JS</span>
+                    <span class="tag react-tag">React</span>
+                    <span class="tag node-tag">Node</span>
+                    <span class="tag git-tag">Git</span>
+                    <span class="tag mongo-tag">MongoDB</span>
+                    <span class="tag figma-tag">Figma</span>
+                </div>
+            </div>
+
+            <!-- 2.4 - Align-End -->
+            <div class="section-box sidebar-section">
+                <h3>2.4 – align-end</h3>
+                <div class="section-2-4">
+                    <div class="stat-box small">📊 Statistika</div>
+                    <div class="stat-box medium">📈</div>
+                    <div class="stat-box large">📊</div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- 3. MAIN CONTENT -->
+        <main class="main-content">
+            <!-- TITLE -->
+            <div class="challenge-title">
+                <h1>FLEXBOX CHALLENGE</h1>
+                <p>Vazifa: maketni faqat flex yordamida yasang</p>
+            </div>
+
+            <!-- 3.1 - Row + Space-Between -->
+            <div class="section-box">
+                <h3>3.1 – row + space-between (5 items)</h3>
+                <div class="section-3-1">
+                    <div class="item item-blue"></div>
+                    <div class="item item-pink item-tall"></div>
+                    <div class="item item-green item-tall"></div>
+                    <div class="item item-orange"></div>
+                    <div class="item item-purple item-circle"></div>
+                </div>
+            </div>
+
+            <!-- 3.2 - Wrap -->
+            <div class="section-box">
+                <h3>3.2 – wrap (9 items)</h3>
+                <div class="section-3-2">
+                    <div class="item item-pink"></div>
+                    <div class="item item-blue"></div>
+                    <div class="item item-green"></div>
+                    <div class="item item-purple"></div>
+                    <div class="item item-yellow"></div>
+                    <div class="item item-lightblue"></div>
+                    <div class="item item-red"></div>
+                    <div class="item item-purple"></div>
+                    <div class="item item-green"></div>
+                </div>
+            </div>
+
+            <!-- 3.3 - Column-Reverse -->
+            <div class="section-box">
+                <h3>3.3 – column-reverse</h3>
+                <div class="section-3-3">
+                    <div class="item item-blue item-medium"></div>
+                    <div class="item item-pink item-medium"></div>
+                    <div class="item item-orange item-medium"></div>
+                    <div class="item item-green item-large"></div>
+                </div>
+            </div>
+
+            <!-- 3.4 - Wrap-Reverse -->
+            <div class="section-box">
+                <h3>3.4 – wrap-reverse (12 items)</h3>
+                <div class="section-3-4">
+                    <div class="item-number purple-bg">10</div>
+                    <div class="item-number blue-bg">11</div>
+                    <div class="item-number pink-bg">12</div>
+                    <div class="item-number green-bg">7</div>
+                    <div class="item-number yellow-bg">8</div>
+                    <div class="item-number purple-bg">9</div>
+                    <div class="item-number red-bg">4</div>
+                    <div class="item-number blue-bg">5</div>
+                    <div class="item-number green-bg">6</div>
+                    <div class="item-number purple-bg">1</div>
+                    <div class="item-number pink-bg">2</div>
+                    <div class="item-number orange-bg">3</div>
+                </div>
+            </div>
+
+            <!-- 3.5 - Center -->
+            <div class="section-box">
+                <h3>3.5 – center</h3>
+                <div class="section-3-5">
+                    <div class="center-box">
+                        <div class="inner-flex">
+                            <div class="item item-red"></div>
+                            <div class="item item-blue"></div>
+                            <div class="item item-green"></div>
+                        </div>
+                        <p>Ichki quti 1 (row)</p>
+                    </div>
+                    <div class="center-box">
+                        <div class="inner-flex">
+                            <div class="item item-yellow"></div>
+                            <div class="item item-purple"></div>
+                            <div class="item item-pink"></div>
+                        </div>
+                        <p>Ichki quti 2 (row)</p>
+                    </div>
+                    <p class="heart">Hammasi markazda ❤️</p>
+                </div>
+            </div>
+
+            <!-- 3.6 - Space-Around -->
+            <div class="section-box">
+                <h3>3.6 – space-around</h3>
+                <div class="section-3-6">
+                    <div class="item item-red"></div>
+                    <div class="item item-blue"></div>
+                    <div class="item item-green item-tall"></div>
+                    <div class="item item-yellow"></div>
+                    <div class="item item-purple item-circle"></div>
+                </div>
+            </div>
+
+            <!-- 3.7 - Space-Evenly + Align-End -->
+            <div class="section-box">
+                <h3>3.7 – space-evenly + align-end</h3>
+                <div class="section-3-7">
+                    <div class="item item-blue item-small">Item 1</div>
+                    <div class="item item-pink item-large">Item 2</div>
+                    <div class="item item-green item-medium">Item 3</div>
+                    <div class="item item-purple item-medium">Item 4</div>
+                </div>
+            </div>
+
+            <!-- 3.8 - Nested Flex -->
+            <div class="section-box">
+                <h3>3.8 – nested flex</h3>
+                <div class="section-3-8">
+                    <div class="nested-group">
+                        <h4>Yuqori qism (row)</h4>
+                        <div class="nested-flex">
+                            <div class="item item-blue"></div>
+                            <div class="item item-pink"></div>
+                            <div class="item item-green"></div>
+                        </div>
+                    </div>
+                    <div class="nested-group">
+                        <h4>Quyi qism (wrap)</h4>
+                        <div class="nested-flex flex-wrap">
+                            <div class="item item-yellow"></div>
+                            <div class="item item-purple"></div>
+                            <div class="item item-pink"></div>
+                            <div class="item item-green"></div>
+                            <div class="item item-blue"></div>
+                            <div class="item item-orange"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+            <h3>🎯 Maqsad: rasmadagi maketni HTML/CSS'da faqat FLEXBOX yordamida taklirorlash.</h3>
+            <p>Har bir blokdagi joylashtirish, teng masofa, o'lchami iloji boricha takrorlanishi kerak.</p>
+        </div>
+        <div class="footer-award">
+            <h3>🏆 Amaliyot o'zingizni kuchli qiladi!</h3>
+        </div>
+    </footer>
+</body>
+</html>
